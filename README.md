@@ -39,7 +39,6 @@ A comprehensive Student Grade Tracker system built in Java with a professional c
 - File I/O (Serialization)
 - Scanner for Console Input
 
-
 ## How to Run
 
 ### Using IntelliJ IDEA
@@ -55,6 +54,6 @@ javac src/*.java
 
 # Run
 java src/StudentGradeTracker
-
+```
 ## GitHub Link
 https://github.com/BigGhxst/CodeAlpha_StudentGradeTracker.git
