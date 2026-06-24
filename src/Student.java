@@ -23,9 +23,31 @@ public class Student {
         this.grade = grade;
     }
 
+    // Get letter grade based on new grading system
+    public String getLetterGrade() {
+        if (grade >= 75) {
+            return "PD"; // Distinction
+        } else if (grade >= 50) {
+            return "P";  // Pass
+        } else {
+            return "F";  // Fail
+        }
+    }
+
+    // Get full grade description
+    public String getGradeDescription() {
+        if (grade >= 75) {
+            return "Distinction (PD)";
+        } else if (grade >= 50) {
+            return "Pass (P)";
+        } else {
+            return "Fail (F)";
+        }
+    }
+
     // Display student info
     @Override
     public String toString() {
-        return name + " - Grade: " + grade;
+        return name + " - Grade: " + grade + " (" + getLetterGrade() + ")";
     }
 }
