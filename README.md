@@ -39,4 +39,19 @@ A comprehensive Student Grade Tracker system built in Java with a professional c
 - File I/O (Serialization)
 - Scanner for Console Input
 
-## Project Structure
+
+## How to Run
+
+### Using IntelliJ IDEA
+1. Open IntelliJ IDEA
+2. File → Open → Select project folder
+3. Run `StudentGradeTracker.java`
+4. Follow the console menu
+
+### Using Command Line
+```bash
+# Compile
+javac src/*.java
+
+# Run
+java src/StudentGradeTracker
